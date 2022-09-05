@@ -1,8 +1,10 @@
 package com.veripark.phonebook
 
+import android.content.Context
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -22,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    Greeting(this,"Android")
                 }
             }
         }
@@ -30,14 +32,14 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
+fun Greeting(context: Context, name: String) {
+    Text(text = "Hello $name!", modifier = Modifier.clickable { ToasterMessage().show(context,name) })
 }
 
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     PhonebookTheme {
-        Greeting("Android")
+
     }
 }
