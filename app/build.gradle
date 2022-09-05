@@ -62,5 +62,5 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
 
     //Phonebook Library
-    implementation 'com.github.saqibsufian04:Phonebook:0.1.1'
+    implementation 'com.github.saqibsufian04:Phonebook:0.1.0'
 }
