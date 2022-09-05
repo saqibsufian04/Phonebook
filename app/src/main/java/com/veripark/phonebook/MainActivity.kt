@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting(this, "Show message from Phonebook library")
+                    Greeting(this, "Showing message from Phonebook library")
                 }
             }
         }
