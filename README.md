@@ -27,7 +27,7 @@ dependencies {
 
 ### Usage
 
-#### Attaching Counties to Spinner
+#### Show Toaster Message
 
 ```kotlin
     ToasterMessage().show(context, name)    
