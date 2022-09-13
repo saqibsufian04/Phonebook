@@ -64,5 +64,5 @@ dependencies {
 
     //Phonebook Library
     //implementation 'com.github.saqibsufian04:Phonebook:0.1.0'
-    implementation project(path: ':phonebook')
+    //implementation project(path: ':phonebook')
 }

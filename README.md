@@ -1,6 +1,6 @@
 # Phonebook
 
-A Simple Android Library for Toast Message show.
+A Simple Android Library for Contact Picker.
 
 ### Step 1. Add the JitPack repository to your settings file
 
