@@ -21,7 +21,7 @@ dependencyResolutionManagement {
 
 ```Kotlin
 dependencies {
-    implementation 'com.github.saqibsufian04:Phonebook:0.1.0'
+    implementation 'com.github.saqibsufian04:phonebook:0.1.0'
 }
 ```
 

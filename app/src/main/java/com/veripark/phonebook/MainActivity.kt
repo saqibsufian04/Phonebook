@@ -52,12 +52,12 @@ fun Greeting(context: Context, name: String) {
 }
 
 private fun getContact(activity: FragmentActivity) {
- /*   val contactPicker: ContactPicker? = ContactPicker.create(
+    val contactPicker: ContactPicker? = ContactPicker.create(
         activity = activity,
         onContactPicked = { Toast.makeText(activity,"${it.name}: ${it.number}",Toast.LENGTH_LONG).show() },
         onFailure = {Toast.makeText(activity,it.localizedMessage,Toast.LENGTH_LONG).show() })
 
-    contactPicker?.pick()*/
+    contactPicker?.pick()
 }
 
 @Preview(showBackground = true)
